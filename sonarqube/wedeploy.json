@@ -1,0 +1,20 @@
+{
+    "id": "sonar",
+    "image": "sonarqube:7.1",
+    "port": 9000,
+    "dependencies": ["db"],
+    "env": {
+        "SONARQUBE_JDBC_USERNAME": "sonar",
+        "SONARQUBE_JDBC_PASSWORD": "passw0rd",
+        "SONARQUBE_JDBC_URL": "jdbc:postgresql://db:5432/sonar"
+    },
+    "volumes": {
+        "conf": "/opt/sonarqube/conf",
+        "data": "/opt/sonarqube/data",
+        "extensions": "/opt/sonarqube/extensions",
+        "plugins": "/opt/sonarqube/lib/bundled-plugins"
+    },
+    "healthCheck": {
+        "url": "localhost:9000"
+    }
+}
