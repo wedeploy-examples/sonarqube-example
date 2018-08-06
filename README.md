@@ -1,13 +1,13 @@
-[![Deploy](https://cdn.wedeploy.com/images/deploy.svg)](https://console.wedeploy.com/deploy?repo=https://github.com/wedeploy-examples/play-framework-example)
+[![Deploy](https://cdn.wedeploy.com/images/deploy.svg)](https://console.wedeploy.com/deploy?repo=https://github.com/wedeploy-examples/sonarqube-example)
 
-# Play Framework
+# SonarQube and Postgres
 
-A demo of [Play framework](https://www.playframework.com/) on [WeDeploy](https://wedeploy.com/).
+An example of [SonarQube](https://www.sonarqube.org/) and [Postgres](https://www.postgresql.org/) on [WeDeploy](https://wedeploy.com/).
 
 ## Instructions
 
 1. Install the [WeDeploy CLI](https://wedeploy.com/docs/intro/using-the-command-line/).
-2. Clone this project.
+2. Clone this repository.
 3. Open the project with your command line and run `we deploy -p yourproject`.
 
 ## License
